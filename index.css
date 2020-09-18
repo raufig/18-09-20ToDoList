@@ -1,0 +1,57 @@
+
+
+body {
+    padding-top: 50px;
+    
+}
+
+.list-header {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.39),
+			rgba(255, 255, 255, 0.55)
+		),
+
+		url("https://www.workflowmax.com/hubfs/6-things-to-do-list.png")no-repeat center;
+		
+	background-size: cover;
+}
+
+
+
+.mdl-grid .mdl-cell h1 {
+	letter-spacing: 4px;
+}
+
+div.mdl-grid {
+	max-width: 540px;
+	background: #08fa0038;
+}
+
+.mdl-cell {
+	text-align: center;
+	position: relative;
+}
+
+
+
+.add-btn {
+	position: absolute;
+	bottom: -30px;
+	left: 5%;
+	z-index: 55555;
+}
+
+
+
+ul#toDoList li {
+	display: flex;
+	justify-content: space-between;
+}
+
+.simple-keyboard{
+    width: 900px;
+    margin-left: 500px;
+    background-color: rgba(32, 248, 4, 0.335);
+    color: rgba(38, 0, 253, 0.63);
+    
+}
